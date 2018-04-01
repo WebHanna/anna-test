@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-face.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/pagination.js"></script>
+    <script src="js/scrollTop.js"></script>
+</head>
+<body>
+<section class="header">
+    <div class="header_left">
+    <div class="logo">
+        <img class="logo" src="img/logo.jpg">
+    </div>
+       <ul class="menu">
+           <li class="menu_item">Поиск</li>
+           <li class="menu_item">Мои переписки</li>
+           <li class="menu_item">Избранное</li>
+           <li class="menu_item">Кто смотрел</li>
+       </ul>
+    </div>
+    <div class="menu_icon">
+        <i class="fa fa-align-justify" aria-hidden="true"></i>
+    </div>
+    <ul class="menu_small">
+        <li class="menu_small_item_times">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </li>
+        <li class="menu_small_item">Поиск</li>
+        <li class="menu_small_item">Мои переписки</li>
+        <li class="menu_small_item">Избранное</li>
+        <li class="menu_small_item">Кто смотрел</li>
+    </ul>
+       <ul class="user">
+           <li class="user_item">Премиум</li>
+           <li class="vip"><img src="img/vip.jpg"/></li>
+           <li class="user_item text_blue">100 кредитов</li>
+           <li class="user_item">
+               <img src="img/user.jpg" class="img">
+           </li>
+           <li class="angle">
+               <span class="text_blue">
+                  <i class="fas fa-angle-down"></i>
+               </span>
+           </li>
+       </ul>
+    <div class="user_small">
+        <img src="img/user.jpg" class="img">
+    </div>
+</section>
+<section class="gallery">
+    <div class="gallery_wrapper">
+    <ul class="gallery_wrapper_girls">
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl1.jpg" class="img">
+        </li>
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl2.jpg" class="img">
+        </li>
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl3.jpg" class="img">
+        </li>
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl4.jpg" class="img">
+        </li>
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl5.jpg" class="img">
+        </li>
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl6.jpg" class="img">
+        </li>
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl7.jpg" class="img">
+        </li>
+        <li class="gallery_wrapper_girls_photo">
+            <img src="img/girl.jpg" class="img">
+        </li>
+    </ul>
+    </div>
+</section>
+<section class="filter">
+    <div class="filter_wrapper">
+    <div class="filter_wrapper_text">Я ищу</div>
+    <form class="filter_wrapper_block">
+        <div class="area">
+        <div class="area_sex">
+            <div class="area_sex_text">Девушку</div>
+            <div class="area_sex_arrow">
+                <i class="fas fa-angle-down arrow"></i>
+            </div>
+        </div>
+        <div class="area_city">
+            <div class="area_city_text">Санкт-Петербург</div>
+            <div class="area_city_times">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            </div>
+        <div class="area_age">
+            <div class="area_age_text">Возраст</div>
+            <div class="area_age_number">
+                <div class="absolute_number">
+                    <div class="absolute_number_1">
+                        <div class="absolute_number_1_circle"></div>
+                        <div class="absolute_number_1_text">18</div>
+                    </div>
+                    <div class="absolute_number_line"></div>
+                    <div class="absolute_number_2">
+                        <div class="absolute_number_2_circle"></div>
+                        <div class="absolute_number_2_text">23</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <button type="button" class="button">найти</button>
+    </form>
+    </div>
+        <div class="filter_wrapper_search">
+            <div class="filter_wrapper_search_text">
+                <span class="text">Расширенный поиск</span>
+                <span class="text_blue">
+                <i class="fas fa-angle-down arrow"></i>
+                </span>
+            </div>
+            <div class="filter_wrapper_search_line"></div>
+        </div>
+
+</section>
+<section class="main">
+    <div class="main_gallery">
+       <div class="main_gallery_wrapper">
+           <div class="buttons_block">
+               <div class="buttons_block_item">Онлайн</div>
+               <div class="buttons_block_item active">Новые</div>
+               <div class="buttons_block_item">Популярные</div>
+           </div>
+           <div class="cards_wrapper">
+               <div class="arrow_up">
+                   <i class="fa fa-arrow-up" aria-hidden="true"></i>
+               </div>
+               <div class="cards_block">
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Кристиночка,</span>
+                               <span class="card_inf_top_age">28</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cанкт-Петербург,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>3</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>145</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Аня,</span>
+                               <span class="card_inf_top_age">18</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Ростов-на-Дону,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>17</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Анжелика,</span>
+                               <span class="card_inf_top_age">27</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Чебоксары,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Лариса,</span>
+                               <span class="card_inf_top_age">32</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Москва,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card6.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>3</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Настя,</span>
+                               <span class="card_inf_top_age">21</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Зеленоград,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card7.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>4</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Евгения,</span>
+                               <span class="card_inf_top_age">30</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Ростов-на-Дону,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card8.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>28</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Ольга,</span>
+                               <span class="card_inf_top_age">25</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Казань,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="cards_block closed">
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card.png" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="cards_block closed">
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg"  class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg"  class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg"  class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg"  class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg"  class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg"  class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card1.jpg"  class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="cards_block closed">
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card3.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="cards_block closed">
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card4.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="cards_block closed">
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card_img">
+                           <img src="img/girl_card5.jpg" class="img">
+                           <div class="absolute">
+                               <div class="absolute_photo"><i class="fas fa-camera"></i>12</div>
+                               <div class="absolute_top">ТОП</div>
+                               <div class="absolute_buttons">
+                                   <div class="absolute_buttons_favorites">
+                                       <span class="icon">&#9734</span> Избранное</div>
+                                   <div class="absolute_buttons_send_letter">
+                                       <span class="icon"><i class="far fa-envelope"> </i></span> Написать</div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="card_inf">
+                           <div class="card_inf_top">
+                               <span class="card_inf_top_name">Диана,</span>
+                               <span class="card_inf_top_age">20</span>
+                               <span class="green_circle"></span>
+                           </div>
+                           <div class="card_inf_bottom">
+                               <span class="card_inf_bottom_city">Cамара,</span>
+                               <span class="card_inf_bottom_country">Pоссия</span>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <ul class="pagination">
+               <li class="pagination_item_arrow_left">	&lt</li>
+               <li class="pagination_item active">	1 </li>
+               <li class="pagination_item">	2 </li>
+               <li class="pagination_item">	3 </li>
+               <li class="pagination_item">	4 </li>
+               <li class="pagination_item">	5 </li>
+               <li class="pagination_item">	6 </li>
+               <li class="pagination_item_arrow_right">	&gt</li>
+           </ul>
+       </div>
+
+    </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <div class="footer_wrapper">
+        <div class="footer_wrapper_about">
+            <div class="footer_wrapper_about_item">Правила</div>
+            <div class="footer_wrapper_about_item">Пользовательское соглашение</div>
+            <div class="footer_wrapper_about_item">О проекте</div>
+            <div class="footer_wrapper_about_item">Обратная связь</div>
+        </div>
+        <div class="footer_wrapper_inf">
+            ©«KIKI». Лучший on-line сервис по поиску спонсоров и содержанок, 2015-2017 <br/>
+            Администрация не несёт ответственности за размещённые анкеты. Вся информация на сайте предоставлена посетителями.
+        </div>
+    </div>
+</section>
+
+<script src="js/close_mobile.js"></script>
+</body>
+</html>
