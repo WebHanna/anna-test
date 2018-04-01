@@ -637,6 +637,10 @@
 
 }
 @media screen and (max-width: 800px) {
+
+  .logo{
+    margin-top: 2.5px;
+  }
   .header, .gallery_wrapper, .main_gallery_wrapper, .footer_wrapper, .filter_wrapper {
     margin: 0 85px;
   }

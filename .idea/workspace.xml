@@ -4,7 +4,6 @@
     <list default="true" id="45d5734f-f378-4154-9bd5-2503d2ca61d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6787">
-              <caret line="226" column="28" lean-forward="true" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
+            <state relative-caret-position="209">
+              <caret line="640" column="8" lean-forward="true" selection-start-line="640" selection-start-column="8" selection-end-line="640" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -69,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -146,10 +145,10 @@
       <find>arr</find>
       <find>butt</find>
       <find>gallery_wrapper_girls_photo</find>
-      <find>онл</find>
       <find>buttons_block_item</find>
       <find>buttons</find>
       <find>card</find>
+      <find>онл</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,8 +173,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/scss/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
       </list>
     </option>
   </component>
@@ -196,8 +195,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="693" />
-    <option name="y" value="80" />
+    <option name="x" value="840" />
+    <option name="y" value="368" />
     <option name="width" value="1211" />
     <option name="height" value="729" />
   </component>
@@ -292,15 +291,15 @@
       <workItem from="1521038279610" duration="207000" />
       <workItem from="1522497666098" duration="36000" />
       <workItem from="1522497760018" duration="25614000" />
-      <workItem from="1522565651952" duration="32050000" />
+      <workItem from="1522565651952" duration="32370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69394000" />
+    <option name="totallyTimeSpent" value="69714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="693" y="80" width="1211" height="729" extended-state="0" />
+    <frame x="840" y="368" width="1211" height="729" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24957983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -690,14 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6787">
-          <caret line="226" column="28" lean-forward="true" selection-start-line="226" selection-start-column="28" selection-end-line="226" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -705,6 +696,14 @@
           <folding>
             <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="640" column="8" lean-forward="true" selection-start-line="640" selection-start-column="8" selection-end-line="640" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
